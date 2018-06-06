@@ -182,7 +182,8 @@ print(p)
 #print(grid.arrange(p, box ,nrow=1, ncol=2,newpage = TRUE, widths=c(3,1)))
 dev.off()
 
-####change
+
+#### fpkm
 stopCluster(cl)
 time.end=proc.time()[[3]]
 time.end-time.start
